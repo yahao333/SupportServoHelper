@@ -1,0 +1,41 @@
+{
+  // TypeScript 编译器配置
+  "compilerOptions": {
+    // 目标 ECMAScript 版本
+    "target": "ES2020",
+    // 使用的库类型定义
+    "useDefineForClassFields": true,
+    // 使用的库
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    // 模块系统
+    "module": "ESNext",
+    // 跳过库类型检查（加速编译）
+    "skipLibCheck": true,
+
+    /* 模块解析配置 */
+    "moduleResolution": "bundler",      // 使用打包工具的模块解析
+    "allowImportingTsExtensions": true, // 允许导入 .ts 扩展名
+    "resolveJsonModule": true,          // 允许导入 JSON 模块
+    "isolatedModules": true,            // 将每个文件作为独立模块编译
+
+    /* JavaScript 输出配置 */
+    "noEmit": true,                     // 不输出文件（由 Vite 处理）
+    "jsx": "react-jsx",                 // 使用 React JSX 转换
+
+    /* 严格模式（建议开启以获得更好的类型安全） */
+    "strict": true,
+    "noUnusedLocals": true,             // 检查未使用的局部变量
+    "noUnusedParameters": true,         // 检查未使用的函数参数
+    "noFallthroughCasesInSwitch": true, // 检查 switch 语句中的 fallthrough
+
+    /* 路径别名配置（后续可添加） */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  // 指定包含在编译中的文件
+  "include": ["src"],
+  // 引用的 TypeScript 项目
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
