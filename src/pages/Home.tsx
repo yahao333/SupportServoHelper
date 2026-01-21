@@ -177,7 +177,7 @@ export default function Home() {
                 Windows 10 / Windows 11
               </p>
               <a
-                href="https://github.com/yahao333/SupportServoHelper/releases/download/latest/ServoHelper.zip"
+                href="https://github.com/yahao333/SupportServoHelper/releases"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full py-3 bg-primary-500 text-white font-semibold rounded-lg hover:bg-primary-600 transition-colors text-center"
@@ -201,7 +201,7 @@ export default function Home() {
             {t.home.cta.description}
           </p>
           <a
-            href="https://github.com/yahao333/SupportServoHelper/releases/download/latest/ServoHelper.zip"
+            href="https://github.com/yahao333/SupportServoHelper/releases"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4

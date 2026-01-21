@@ -136,7 +136,7 @@ export const docs = {
       },
       {
         question: '如何更新软件到最新版本？',
-        answer: '访问官网下载页面，获取最新版本安装包。安装新版本时建议先卸载旧版本。',
+        answer: '访问 GitHub Releases 页面获取最新版本安装包：https://github.com/yahao333/SupportServoHelper/releases 。安装新版本时建议先卸载旧版本。',
       },
       {
         question: '支持哪些舵机型号？',

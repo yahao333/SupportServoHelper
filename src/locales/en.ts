@@ -136,7 +136,7 @@ export const docs = {
       },
       {
         question: 'How do I update to the latest version?',
-        answer: 'Visit our website download page to get the latest version. We recommend uninstalling the old version before installing the new one.',
+        answer: 'Visit the GitHub Releases page to get the latest version: https://github.com/yahao333/SupportServoHelper/releases . We recommend uninstalling the old version before installing the new one.',
       },
       {
         question: 'Which servo models are supported?',
